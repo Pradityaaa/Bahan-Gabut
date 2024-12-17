@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat untuk Kamu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="surat">
+        <h1>Untuk Kamu</h1>
+        <p>Dear Praditya,</p>
+        <p>"Tidak ada mimpi yang terlalu besar jika kamu berani untuk memulai, dan tidak ada langkah yang terlalu kecil jika kamu terus melangkah maju. Percayalah pada dirimu, setiap usaha membawa kita lebih dekat pada tujuan."</p>
+        <p>Salam hangat,<br>Anonim</p>
+    </div>
+    <div id="qrcode"></div>
+    <script src="qrcode.min.js"></script>
+    <script>
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: "https://link-ke-suratmu.com",
+            width: 128,
+            height: 128
+        });
+    </script>
+</body>
+</html>

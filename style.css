@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f5f5dc; /* Warna kertas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.surat {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    line-height: 1.6;
+}
+h1 {
+    color: #d35400; /* Warna judul */
+    text-align: center;
+}
